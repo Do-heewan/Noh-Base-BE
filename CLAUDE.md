@@ -43,3 +43,4 @@
 - API 표면(계획된 엔드포인트): @docs/api.md
 - Firestore 데이터 모델: @.claude/rules/firestore-data-model.md
 - Python 코드 컨벤션: @.claude/rules/python-style.md
+- GitHub/Git 규칙(저장소·커밋·비밀 관리): @.claude/rules/github.md
