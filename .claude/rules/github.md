@@ -2,8 +2,8 @@
 
 ## 저장소 / 계정
 
-- **원격 저장소**: https://github.com/do-heewan/Noh-Base-BE (`origin`, private)
-- **계정**: GitHub ID `do-heewan` / `nhw3152@gmail.com`
+- **원격 저장소**: https://github.com/Do-heewan/Noh-Base-BE (`origin`, private)
+- **계정**: GitHub ID `Do-heewan` (정식 casing, 로그인은 대소문자 무관) / `nhw3152@gmail.com`
 - 로컬 git 사용자(repo-local): `user.name=do-heewan`, `user.email=nhw3152@gmail.com`
   - 전역(`--global`) 설정은 건드리지 않는다. 이 저장소 안에서만 위 신원을 쓴다.
 
@@ -32,4 +32,4 @@
 ## 도구 메모
 
 - `gh` CLI 는 현재 미설치. 레포 생성/PR을 CLI로 하려면 `winget install --id GitHub.cli` 후 `gh auth login`.
-- 원격이 끊겨 있으면: `git remote add origin https://github.com/do-heewan/Noh-Base-BE.git`
+- 원격이 끊겨 있으면: `git remote add origin https://github.com/Do-heewan/Noh-Base-BE.git`
