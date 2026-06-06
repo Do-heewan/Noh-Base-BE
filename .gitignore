@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual env (conda env는 외부 관리)
+.venv/
+venv/
+
+# 환경/비밀
+.env
+.env.*
+!.env.example
+serviceAccountKey.json
+firebase-credentials.json
+
+# 테스트/캐시
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# 빌드 게이트 상태
+.claude/.build_state.json
+
+# Claude Code 개인 로컬 설정 (공유는 settings.json)
+.claude/settings.local.json
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 임시 추출물
+_plan.txt
