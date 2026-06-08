@@ -38,7 +38,7 @@ Firebase Auth 의 uid 를 문서 ID 로 사용한다.
   "term": str,             # 영어 의학용어 (표제어)
   "meaning": str,          # 뜻
   "etymology": str | null, # 어원
-  "source": "db" | "llm" | "user",  # 자동완성 출처 (검수 데이터 적립용)
+  "source": "pdf" | "db" | "llm" | "user",  # 뜻 출처: pdf=업로드 문서 verbatim, db/llm=자동완성, user=검수 입력
   "reviewed": bool,        # 사용자 검수 완료 여부
   "wrong_count": int       # 오답 누적
 }
